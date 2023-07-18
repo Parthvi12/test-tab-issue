@@ -1,7 +1,7 @@
 {
   "unpublishedPage": {
-    "name": "Search",
-    "slug": "search",
+    "name": "1 Track Applications",
+    "slug": "1-track-applications",
     "layouts": [
       {
         "viewMode": false,
@@ -13,52 +13,55 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 1090,
+          "bottomRow": 840,
           "containerStyle": "none",
-          "snapRows": 73,
+          "snapRows": 128,
           "parentRowSpace": 1,
           "type": "CANVAS_WIDGET",
           "canExtend": true,
-          "version": 80,
-          "minHeight": 740,
+          "version": 54,
+          "minHeight": 850,
           "parentColumnSpace": 1,
-          "dynamicBindingPathList": [],
-          "leftColumn": 0
+          "dynamicTriggerPathList": [],
+          "leftColumn": 0,
+          "dynamicBindingPathList": []
         },
         "layoutOnLoadActions": [
           [
             {
-              "name": "getAllCustomers",
+              "id": "1 Track Applications_fetchFeedback",
+              "name": "fetchFeedback",
               "confirmBeforeExecute": false,
               "pluginType": "DB",
               "jsonPathKeys": [
-                "(customers_table.pageNo - 1) * customers_table.pageSize"
+                "application_table.selectedRow.id"
               ],
               "timeoutInMillisecond": 10000
             },
             {
-              "name": "getAllOrders",
+              "id": "1 Track Applications_getApplications",
+              "name": "getApplications",
               "confirmBeforeExecute": false,
               "pluginType": "DB",
               "jsonPathKeys": [
-                "(orders_table.pageNo - 1) * orders_table.pageSize"
+                "(application_table.pageNo - 1) * application_table.pageSize",
+                "application_table.pageSize",
+                "status_dropdown.selectedOptionValue === \"All\" ? \"ilike '%'\": \"= '\" + status_dropdown.selectedOptionValue + \"'\""
               ],
               "timeoutInMillisecond": 10000
             }
           ]
         ],
-        "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
-        "id": "Search",
+        "id": "1 Track Applications",
         "deleted": false,
         "policies": [],
         "userPermissions": []
       }
     ],
     "userPermissions": [],
-    "policies": [],
-    "isHidden": false
+    "policies": []
   },
   "deleted": false,
-  "gitSyncId": "64b6b886597d8e1f6df2b659_64b6b8af8b74c61144b2478f"
+  "gitSyncId": "64b6b9004f609e3b56e43b1d_64b6b913597d8e1f6df2b669"
 }
