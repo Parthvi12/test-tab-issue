@@ -13,13 +13,13 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 840,
+          "bottomRow": 800,
           "containerStyle": "none",
           "snapRows": 128,
           "parentRowSpace": 1,
           "type": "CANVAS_WIDGET",
           "canExtend": true,
-          "version": 54,
+          "version": 80,
           "minHeight": 850,
           "parentColumnSpace": 1,
           "dynamicTriggerPathList": [],
@@ -52,6 +52,7 @@
             }
           ]
         ],
+        "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
         "id": "1 Track Applications",
         "deleted": false,

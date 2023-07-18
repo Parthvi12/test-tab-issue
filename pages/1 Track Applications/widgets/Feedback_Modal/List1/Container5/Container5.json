@@ -1,9 +1,10 @@
 {
-    "boxShadow": "NONE",
+    "boxShadow": "none",
     "widgetName": "Container5",
     "borderColor": "transparent",
     "disallowCopy": true,
     "isCanvas": true,
+    "dynamicPropertyPathList": [{"key": "borderRadius"}],
     "displayName": "Container",
     "iconSVG": "/static/media/icon.1977dca3.svg",
     "topRow": 0,
@@ -16,6 +17,8 @@
     "animateLoading": true,
     "leftColumn": 0,
     "children": [{
+        "labelTextSize": "0.875rem",
+        "boxShadow": "none",
         "widgetName": "Canvas9",
         "detachFromLayout": true,
         "displayName": "Canvas",
@@ -34,13 +37,16 @@
         "isLoading": false,
         "parentColumnSpace": 1,
         "leftColumn": 0,
+        "borderRadius": "0px",
         "key": "ndkqyuyo0q"
     }],
     "borderWidth": "0",
     "key": "ewrz9w75jz",
     "disablePropertyPane": true,
+    "labelTextSize": "0.875rem",
     "backgroundColor": "white",
     "rightColumn": 64,
+    "dynamicHeight": "FIXED",
     "widgetId": "odfut9f76t",
     "containerStyle": "card",
     "isVisible": true,
@@ -48,5 +54,7 @@
     "parentId": "vt2ssqwqeq",
     "renderMode": "CANVAS",
     "isLoading": false,
-    "borderRadius": "0"
+    "borderRadius": "0px",
+    "maxDynamicHeight": 9000,
+    "minDynamicHeight": 4
 }

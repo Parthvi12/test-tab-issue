@@ -1,10 +1,12 @@
 {
+    "labelTextSize": "0.875rem",
+    "boxShadow": "none",
     "widgetName": "Button4",
-    "rightColumn": 61,
     "onClick": "{{\nemailInput3.text !== undefined && emailInput3.text !== \"\" ?\npostScheduleInterview3.run() : undefined;\nemailInput2.text !== undefined && emailInput2.text !== \"\" ?\npostScheduleInterview2.run()  : undefined;\npostScheduleInterview1.run(() => { setInterviewStatusScheduled.run(() => {getApplications.run(); closeModal('Modal1')}) }, undefined, { i: 2 })}}",
-    "isDefaultClickDisabled": true,
+    "rightColumn": 61,
     "dynamicPropertyPathList": [{"key": "onClick"}],
     "buttonColor": "#FFC13D",
+    "isDefaultClickDisabled": true,
     "widgetId": "kb3ggbux3j",
     "topRow": 37,
     "bottomRow": 42,
@@ -17,7 +19,7 @@
     "dynamicTriggerPathList": [{"key": "onClick"}],
     "leftColumn": 38,
     "dynamicBindingPathList": [],
-    "borderRadius": "ROUNDED",
+    "borderRadius": "0.375rem",
     "buttonVariant": "PRIMARY",
     "text": "Confirm",
     "isDisabled": false

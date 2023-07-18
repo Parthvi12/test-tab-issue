@@ -1,4 +1,5 @@
 {
+    "boxShadow": "none",
     "widgetName": "Tabs1",
     "isCanvas": true,
     "dynamicPropertyPathList": [
@@ -19,15 +20,17 @@
     "leftColumn": 0,
     "dynamicBindingPathList": [
         {"key": "tabsObj.tab2.isVisible"},
-        {"key": "tabsObj.tab1.isVisible"}
+        {"key": "tabsObj.tab1.isVisible"},
+        {"key": "accentColor"}
     ],
     "children": [
         {
             "tabId": "tab1",
+            "boxShadow": "none",
             "widgetName": "Canvas13",
             "displayName": "Canvas",
             "topRow": 0,
-            "bottomRow": 390,
+            "bottomRow": 90,
             "parentRowSpace": 1,
             "type": "CANVAS_WIDGET",
             "canExtend": true,
@@ -40,6 +43,7 @@
             "dynamicBindingPathList": [],
             "isDisabled": false,
             "key": "pkjie4xmnc",
+            "labelTextSize": "0.875rem",
             "tabName": "SI",
             "rightColumn": 430.5,
             "detachFromLayout": true,
@@ -48,14 +52,16 @@
             "version": 1,
             "parentId": "891np8plbt",
             "renderMode": "CANVAS",
-            "isLoading": false
+            "isLoading": false,
+            "borderRadius": "0px"
         },
         {
             "tabId": "tab2",
+            "boxShadow": "none",
             "widgetName": "Canvas14",
             "displayName": "Canvas",
             "topRow": 0,
-            "bottomRow": 390,
+            "bottomRow": 90,
             "parentRowSpace": 1,
             "type": "CANVAS_WIDGET",
             "canExtend": true,
@@ -68,6 +74,7 @@
             "dynamicBindingPathList": [],
             "isDisabled": false,
             "key": "pkjie4xmnc",
+            "labelTextSize": "0.875rem",
             "tabName": "VF",
             "rightColumn": 430.5,
             "detachFromLayout": true,
@@ -76,12 +83,16 @@
             "version": 1,
             "parentId": "891np8plbt",
             "renderMode": "CANVAS",
-            "isLoading": false
+            "isLoading": false,
+            "borderRadius": "0px"
         }
     ],
     "key": "a57at6zopy",
+    "labelTextSize": "0.875rem",
     "rightColumn": 64,
+    "dynamicHeight": "FIXED",
     "widgetId": "891np8plbt",
+    "accentColor": "{{appsmith.theme.colors.primaryColor}}",
     "defaultTab": "",
     "shouldShowTabs": false,
     "tabsObj": {
@@ -104,5 +115,8 @@
     "version": 3,
     "parentId": "2zmso1n1ry",
     "renderMode": "CANVAS",
-    "isLoading": false
+    "isLoading": false,
+    "borderRadius": "0px",
+    "maxDynamicHeight": 9000,
+    "minDynamicHeight": 4
 }

@@ -1,4 +1,5 @@
 {
+    "boxShadow": "none",
     "widgetName": "scheduleDate1",
     "minDate": "{{moment()}}",
     "dateFormat": "YYYY-MM-DD HH:mm",
@@ -20,14 +21,18 @@
     "leftColumn": 32,
     "dynamicBindingPathList": [
         {"key": "defaultDate"},
-        {"key": "minDate"}
+        {"key": "minDate"},
+        {"key": "accentColor"}
     ],
     "isDisabled": false,
     "key": "vuany4zify",
+    "labelTextSize": "0.875rem",
     "isRequired": false,
     "defaultDate": "{{moment()}}",
     "rightColumn": 61,
+    "dynamicHeight": "FIXED",
     "widgetId": "lp11bzssp4",
+    "accentColor": "{{appsmith.theme.colors.primaryColor}}",
     "isVisible": true,
     "datePickerType": "DATE_PICKER",
     "label": "",
@@ -36,7 +41,10 @@
     "renderMode": "CANVAS",
     "isLoading": false,
     "timePrecision": "minute",
+    "borderRadius": "0px",
+    "maxDynamicHeight": 9000,
     "firstDayOfWeek": 0,
     "closeOnSelection": true,
-    "maxDate": "2121-12-31T18:29:00.000Z"
+    "maxDate": "2121-12-31T18:29:00.000Z",
+    "minDynamicHeight": 4
 }

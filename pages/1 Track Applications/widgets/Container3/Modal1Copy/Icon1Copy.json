@@ -1,9 +1,11 @@
 {
+    "labelTextSize": "0.875rem",
+    "boxShadow": "none",
     "widgetName": "Icon1Copy",
-    "rightColumn": 60,
     "onClick": "{{closeModal('Modal1Copy')}}",
-    "iconName": "cross",
+    "rightColumn": 60,
     "buttonColor": "#2E3D49",
+    "iconName": "cross",
     "displayName": "Icon",
     "iconSVG": "/static/media/icon.31d6cfe0.svg",
     "widgetId": "pu153c50cn",
@@ -17,7 +19,7 @@
     "renderMode": "CANVAS",
     "isLoading": false,
     "leftColumn": 54,
-    "borderRadius": "SHARP",
+    "borderRadius": "0px",
     "buttonVariant": "TERTIARY",
     "iconSize": 24,
     "key": "d4oymeagjk"

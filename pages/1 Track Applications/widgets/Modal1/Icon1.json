@@ -1,5 +1,7 @@
 {
+    "labelTextSize": "0.875rem",
     "isRequired": false,
+    "boxShadow": "none",
     "widgetName": "Icon1",
     "rightColumn": 61,
     "onClick": "{{closeModal('Modal1')}}",
@@ -15,7 +17,7 @@
     "isLoading": false,
     "leftColumn": 53,
     "dynamicBindingPathList": [],
-    "borderRadius": "SHARP",
+    "borderRadius": "0px",
     "buttonVariant": "TERTIARY",
     "iconSize": 24
 }

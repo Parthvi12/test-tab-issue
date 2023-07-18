@@ -1,5 +1,7 @@
 {
+    "boxShadow": "none",
     "widgetName": "Text38",
+    "dynamicPropertyPathList": [{"key": "fontSize"}],
     "displayName": "Text",
     "iconSVG": "/static/media/icon.97c59b52.svg",
     "topRow": 0,
@@ -11,13 +13,16 @@
     "parentColumnSpace": 3.05078125,
     "dynamicTriggerPathList": [],
     "overflow": "NONE",
+    "fontFamily": "System Default",
     "leftColumn": 1,
     "dynamicBindingPathList": [],
     "truncateButtonColor": "#FFC13D",
     "text": "YourCompany Applicant Tracker",
     "key": "gbfdctoduz",
+    "labelTextSize": "0.875rem",
     "rightColumn": 27,
     "textAlign": "LEFT",
+    "dynamicHeight": "FIXED",
     "widgetId": "kew948y0yu",
     "isVisible": true,
     "fontStyle": "BOLD",
@@ -26,5 +31,8 @@
     "parentId": "y0rqxu4d4s",
     "renderMode": "CANVAS",
     "isLoading": false,
-    "fontSize": "HEADING2"
+    "borderRadius": "0px",
+    "maxDynamicHeight": 9000,
+    "fontSize": "1.125rem",
+    "minDynamicHeight": 4
 }

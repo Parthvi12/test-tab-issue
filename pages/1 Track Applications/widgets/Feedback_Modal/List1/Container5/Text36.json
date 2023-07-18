@@ -1,4 +1,5 @@
 {
+    "boxShadow": "none",
     "widgetName": "Text36",
     "dynamicPropertyPathList": [{"key": "backgroundColor"}],
     "displayName": "Text",
@@ -12,6 +13,7 @@
     "parentColumnSpace": 5.78515625,
     "dynamicTriggerPathList": [],
     "overflow": "NONE",
+    "fontFamily": "System Default",
     "leftColumn": 44,
     "dynamicBindingPathList": [
         {"key": "text"},
@@ -20,9 +22,11 @@
     "truncateButtonColor": "#FFC13D",
     "text": "{{currentItem.rating}}",
     "key": "2n7weyddj5",
+    "labelTextSize": "0.875rem",
     "rightColumn": 64,
     "backgroundColor": "{{parseInt(currentItem.rating)>3?\"#03b365\":\"#DD4B34\"}}",
     "textAlign": "CENTER",
+    "dynamicHeight": "FIXED",
     "widgetId": "zaxbd9q08b",
     "logBlackList": {
         "widgetName": true,
@@ -62,5 +66,8 @@
     "parentId": "ezieim483c",
     "renderMode": "CANVAS",
     "isLoading": false,
-    "fontSize": "PARAGRAPH"
+    "borderRadius": "0px",
+    "maxDynamicHeight": 9000,
+    "fontSize": "0.875rem",
+    "minDynamicHeight": 4
 }
